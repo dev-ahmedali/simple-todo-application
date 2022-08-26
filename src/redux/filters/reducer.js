@@ -1,4 +1,4 @@
-import { COLORCHANGED, STATUSCHANGED } from "./actionsTypes";
+import { COLORCHANGED, STATUSCHANGED } from "./actionTypes";
 import initialState from "./initialState";
 
 const reducer = (state = initialState, action) => {

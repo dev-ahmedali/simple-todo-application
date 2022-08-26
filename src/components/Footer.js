@@ -1,6 +1,5 @@
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { statusChanged, colorChanged } from '../redux/filters/actions';
+import { useDispatch, useSelector } from "react-redux";
+import { colorChanged, statusChanged } from "../redux/filters/actions";
 
 const numberOfTodos = (no_of_todos) => {
     switch (no_of_todos) {
